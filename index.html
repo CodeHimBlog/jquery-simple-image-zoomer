@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--jQuery-->
+<script src="../../menus/js/jquery.min.js"></script>
+
+<script src="js/jquery.simple.zoomer.js"> </script>
+<link rel="stylesheet" href="css/simple-zoomer.css" />
+
+
+<!--Demo Only-->
+<link rel="stylesheet" href="demo-only.css" />
+
+</head>
+<body>
+
+
+<main>
+<div class="intro codehim-header">
+<h1> Simple Image Zoomer jQuery Plugin </h1>
+<p>
+A lightweight, simple and easy to use jQuery plugin to smoothly zoom images. 
+</p>
+
+<div class="action"> 
+<a class="btn" href="#4"> Fork on GitHub </a>
+<a class="btn" href="#4"> Download </a>
+</div>
+</div> <!--//intro-->
+
+<article>
+
+<h2> Simple Zoomer Demo </h2>
+
+<div class="image-container">
+
+<img class="myimage" src="image/street.jpg">
+
+</div> <!--//image-container-->
+
+<script>
+$(function(){
+$(".myimage").zoomer();
+
+}); 
+</script>
+
+
+<h2> Main Features</h2>
+<ul>
+<li>Smooth zooming in and out.</li> 
+<li> Scrolling and swiping supported. </li>
+<li>Directly and also can be used in lightsbox, gallery and photo projects. </li>
+<li> Fully customizable with css.</li>
+<li> Easy to use and implement.</li> 
+</ul>
+
+<!--Demo Only Ad, don't remove this if you distribute this plugin to others-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7089100907045419"
+     data-ad-slot="7782420780"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2> How to Implement</h2>
+<p>Nothing to do tough in order to get it working, just attach the <code>zoomer();</code> with the selector <code>img</code> in DOM ready function.  An example below: </p>
+
+<pre>
+$(document).ready(function(){
+    $("#your-img-id").zoomer();
+});
+</pre>
+<b> Note: </b> <br>
+<ol>
+<li>No need to create anything for zoomer, it will automatically create all necessary things in HTML document. </li>
+<li>Must include "simple-zoomer.css" file to your website/app. </li>
+<li> You can customize styles, placement &amp; other relevant things in css. </li>
+</ol>
+
+<p> To change zooming limit and origin, update the following options. </p>
+
+<pre>
+$(function(){
+$(".myimage").zoomer({
+      maxLimit: 100, //default value
+      zoomingOrigin: (0, 0), //default value
+   });
+}); 
+</pre>
+
+</article>
+</main>
+
+<footer class="credit">
+Coded with <span title="heart">♥</span> by Asif Mughal &copy; 2018 - <a href="https://www.codehim.com" rel="dofollow" title="Awesome Web Projects and Tutorials" target="_blank"> Codehim.com </a>
+      </footer>
+
+</body>
+</html>
