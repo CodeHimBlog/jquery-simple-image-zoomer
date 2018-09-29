@@ -1,5 +1,5 @@
 /*  Plugin: simple.zoomer.js
- *   Framework js: jQuery 3.1
+ *   Framework: jQuery 3.1
  *   Author: Asif Mughal
  *   URL: https://www.codehim.com
  *   License: MIT License
