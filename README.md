@@ -1,7 +1,7 @@
 # jquery-simple-image-zoomer
 A lightweight, simple and easy to use jQuery plugin to smoothly zoom images. 
 
-Browse: [Live Demo](https://github.com/CodeHimBlog/jquery-simple-image-zoomer)
+Browse: [Live Demo](https://codehimblog.guthub.io/jquery-simple-image-zoomer)
 
 ## Main Features:
 * Smooth zooming in and out.
