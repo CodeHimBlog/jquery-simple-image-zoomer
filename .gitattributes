@@ -2,4 +2,3 @@
 *.css linguist-vendored
 *.html linguist-vendored
 CHANGELOG.md export-ignore
-README.md export-ignore
